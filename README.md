@@ -155,7 +155,6 @@ python main.py
 
 ```bash
 cd PPE detection/
-pip install -r requirements.txt
 python detection_model_v2.py
 ```
 
