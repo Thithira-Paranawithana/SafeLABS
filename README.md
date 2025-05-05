@@ -1,4 +1,4 @@
-# 🔬 SafeLABS – Laboratory Management & Safety System
+# 🔬 SafeLABS – Laboratory Management & User Authentication System
 
 ![SafeLABS Logo](./SafeLABS_Logo.jpeg)
 
