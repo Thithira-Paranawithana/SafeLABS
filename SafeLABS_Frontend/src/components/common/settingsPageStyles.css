@@ -1,0 +1,357 @@
+/* Grid layout */
+.safelabs-settings-grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .safelabs-settings-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Container styles */
+.safelabs-settings-container {
+  background-color: #0A192F;
+  border-radius: 0px;
+  padding: 40px 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  overflow-x: auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Card styles */
+.safelabs-settings-card {
+  background-color: #112240;
+  border: none;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Header styles */
+.safelabs-settings-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.safelabs-settings-header {
+  color: #FFFFFF;
+  font-size: 2.8rem;
+  margin-bottom: 40px;
+  padding-left: 40px;
+  border-left: 5px solid #64FFDA;
+  font-family: Arial, sans-serif;
+}
+
+.safelabs-settings-subheader {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #64FFDA;
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+  font-family: Arial, sans-serif;
+}
+
+/* Toggle Switch Styling */
+.safelabs-settings-toggle-label {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.safelabs-settings-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.safelabs-settings-toggle-track {
+  width: 2.75rem;
+  height: 1.5rem;
+  background-color: #233554;
+  border-radius: 9999px;
+  position: relative;
+  transition: background-color 0.2s ease;
+}
+
+.safelabs-settings-toggle-track::after {
+  content: '';
+  position: absolute;
+  top: 0.25rem;
+  left: 0.25rem;
+  background-color: white;
+  border-radius: 50%;
+  height: 1rem;
+  width: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.safelabs-settings-toggle-label input:checked + .safelabs-settings-toggle-track {
+  background-color: #64FFDA;
+}
+
+.safelabs-settings-toggle-label input:checked + .safelabs-settings-toggle-track::after {
+  transform: translateX(1.25rem);
+}
+
+.safelabs-settings-toggle-text {
+  margin-left: 0.75rem;
+  font-size: 0.875rem;
+  color: #E0E0E0;
+}
+
+/* Form Elements */
+.safelabs-settings-input {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 10px;
+  background-color: #1C3A63;
+  border: none;
+  color: #FFFFFF;
+  font-size: 1.2rem;
+  transition: all 0.2s ease;
+}
+
+.safelabs-settings-input:focus {
+  outline: none;
+  border-color: #64FFDA;
+  box-shadow: 0 0 0 2px rgba(100, 255, 218, 0.2);
+}
+
+.safelabs-settings-input-label {
+  display: block;
+  margin-bottom: 8px;
+  color: #64FFDA;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Success message styling */
+.safelabs-settings-success-message {
+  margin-bottom: 1.5rem;
+  padding: 15px;
+  background-color: rgba(100, 255, 218, 0.1);
+  color: #64FFDA;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Error message */
+.safelabs-error-message {
+  color: #FF6B6B;
+  padding: 15px;
+  background-color: rgba(255, 107, 107, 0.1);
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+/* Button styling */
+.safelabs-settings-save-button {
+  background-color: #64FFDA;
+  color: #0A192F;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.safelabs-settings-save-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(100, 255, 218, 0.2);
+  background-color: #72ffe1;
+}
+
+.safelabs-settings-save-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.safelabs-settings-button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Utilities */
+.safelabs-settings-flex-row {
+  display: flex;
+  align-items: center;
+}
+
+.safelabs-settings-mb-4 {
+  margin-bottom: 1rem;
+}
+
+.safelabs-settings-mb-8 {
+  margin-bottom: 2rem;
+}
+
+.safelabs-settings-mt-4 {
+  margin-top: 1rem;
+}
+
+/* Logout Button */
+.safelabs-logout-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: transparent;
+  color: #64FFDA;
+  font-weight: 600;
+  padding: 12px 20px;
+  border: 1px solid #233554;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.safelabs-logout-button:hover {
+  background-color: rgba(136, 146, 176, 0.1);
+  color: #64FFDA;
+  transform: translateY(-2px);
+}
+
+.safelabs-logout-button svg {
+  margin-right: 0.5rem;
+}
+
+.safelabs-logout-button-text {
+  margin-left: 0.25rem;
+}
+
+/* Logout Modal Styles */
+.safelabs-logout-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(10, 25, 47, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  backdrop-filter: blur(4px);
+}
+
+.safelabs-logout-modal {
+  background-color: #112240;
+  border-radius: 15px;
+  padding: 30px;
+  width: 90%;
+  max-width: 400px;
+  max-height: 85vh;
+  overflow-y: auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  animation: safelabs-modal-slide-in 0.3s ease forwards;
+}
+
+@keyframes safelabs-modal-slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.safelabs-logout-modal-title {
+  color: #64FFDA;
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #233554;
+}
+
+.safelabs-logout-modal-text {
+  color: #8892B0;
+  margin-bottom: 1.5rem;
+}
+
+.safelabs-logout-modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.safelabs-logout-modal-cancel {
+  background-color: transparent;
+  color: #8892B0;
+  font-weight: 600;
+  padding: 12px 24px;
+  border: 1px solid #233554;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.safelabs-logout-modal-cancel:hover {
+  background-color: rgba(136, 146, 176, 0.1);
+  color: #E0E0E0;
+  transform: translateY(-2px);
+}
+
+.safelabs-logout-modal-confirm {
+  background-color: #64FFDA;
+  color: #0A192F;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.safelabs-logout-modal-confirm:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(100, 255, 218, 0.2);
+  background-color: #72ffe1;
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 768px) {
+  .safelabs-settings-header {
+    font-size: 2.2rem;
+    padding-left: 20px;
+  }
+  
+  .safelabs-settings-container {
+    padding: 20px;
+  }
+  
+  .safelabs-settings-card {
+    padding: 20px;
+  }
+  
+  .safelabs-settings-button-container {
+    justify-content: center;
+  }
+  
+  .safelabs-logout-modal-buttons {
+    flex-direction: column;
+  }
+  
+  .safelabs-logout-modal-cancel, 
+  .safelabs-logout-modal-confirm {
+    width: 100%;
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|c:\\users\\redtech\\source\\repos\\safelabs\\safelabs\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|solutionrelative:safelabs\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|c:\\users\\redtech\\source\\repos\\safelabs\\safelabs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|solutionrelative:safelabs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|c:\\users\\redtech\\source\\repos\\safelabs\\safelabs\\services\\googlecalendarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|solutionrelative:safelabs\\services\\googlecalendarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|c:\\users\\redtech\\source\\repos\\safelabs\\safelabs\\models\\safelabs_models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|solutionrelative:safelabs\\models\\safelabs_models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|c:\\users\\redtech\\source\\repos\\safelabs\\safelabs\\controllers\\userdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|solutionrelative:safelabs\\controllers\\userdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|c:\\users\\redtech\\source\\repos\\safelabs\\safelabs\\controllers\\roledetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|solutionrelative:safelabs\\controllers\\roledetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|c:\\users\\redtech\\source\\repos\\safelabs\\safelabs\\controllers\\resourcetypedetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|solutionrelative:safelabs\\controllers\\resourcetypedetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|c:\\users\\redtech\\source\\repos\\safelabs\\safelabs\\controllers\\resourcedetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|solutionrelative:safelabs\\controllers\\resourcedetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|c:\\users\\redtech\\source\\repos\\safelabs\\safelabs\\controllers\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|solutionrelative:safelabs\\controllers\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|c:\\users\\redtech\\source\\repos\\safelabs\\safelabs\\controllers\\authclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|solutionrelative:safelabs\\controllers\\authclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|c:\\users\\redtech\\source\\repos\\safelabs\\safelabs\\controllers\\attendancedetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|solutionrelative:safelabs\\controllers\\attendancedetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|c:\\users\\redtech\\source\\repos\\safelabs\\safelabs\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|solutionrelative:safelabs\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|c:\\users\\redtech\\source\\repos\\safelabs\\safelabs\\kripta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|solutionrelative:safelabs\\kripta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|c:\\users\\redtech\\source\\repos\\safelabs\\safelabs\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|solutionrelative:safelabs\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|c:\\users\\redtech\\source\\repos\\safelabs\\safelabs\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|solutionrelative:safelabs\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|c:\\users\\redtech\\source\\repos\\safelabs\\safelabs\\models\\announcementdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|solutionrelative:safelabs\\models\\announcementdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|c:\\users\\redtech\\source\\repos\\safelabs\\safelabs\\safelabs.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|solutionrelative:safelabs\\safelabs.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|c:\\users\\redtech\\source\\repos\\safelabs\\safelabs\\controllers\\announcementdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68642C3-6D67-40C4-AAF4-A7F5396845C9}|SafeLABS\\SafeLABS.csproj|solutionrelative:safelabs\\controllers\\announcementdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\Startup.cs",
+              "RelativeDocumentMoniker": "SafeLABS\\Startup.cs",
+              "ToolTip": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\Startup.cs",
+              "RelativeToolTip": "SafeLABS\\Startup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T06:41:24.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\Program.cs",
+              "RelativeDocumentMoniker": "SafeLABS\\Program.cs",
+              "ToolTip": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\Program.cs",
+              "RelativeToolTip": "SafeLABS\\Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T06:41:14.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GoogleCalendarService.cs",
+              "DocumentMoniker": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\Services\\GoogleCalendarService.cs",
+              "RelativeDocumentMoniker": "SafeLABS\\Services\\GoogleCalendarService.cs",
+              "ToolTip": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\Services\\GoogleCalendarService.cs",
+              "RelativeToolTip": "SafeLABS\\Services\\GoogleCalendarService.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T06:41:05.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RoleDetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\Controllers\\RoleDetailsController.cs",
+              "RelativeDocumentMoniker": "SafeLABS\\Controllers\\RoleDetailsController.cs",
+              "ToolTip": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\Controllers\\RoleDetailsController.cs",
+              "RelativeToolTip": "SafeLABS\\Controllers\\RoleDetailsController.cs",
+              "ViewState": "AQIAALQAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T06:40:51.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ResourceTypeDetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\Controllers\\ResourceTypeDetailsController.cs",
+              "RelativeDocumentMoniker": "SafeLABS\\Controllers\\ResourceTypeDetailsController.cs",
+              "ToolTip": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\Controllers\\ResourceTypeDetailsController.cs",
+              "RelativeToolTip": "SafeLABS\\Controllers\\ResourceTypeDetailsController.cs",
+              "ViewState": "AQIAALcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T06:40:48.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ResourceDetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\Controllers\\ResourceDetailsController.cs",
+              "RelativeDocumentMoniker": "SafeLABS\\Controllers\\ResourceDetailsController.cs",
+              "ToolTip": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\Controllers\\ResourceDetailsController.cs",
+              "RelativeToolTip": "SafeLABS\\Controllers\\ResourceDetailsController.cs",
+              "ViewState": "AQIAAL0AAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T06:40:43.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PasswordService.cs",
+              "DocumentMoniker": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\Controllers\\PasswordService.cs",
+              "RelativeDocumentMoniker": "SafeLABS\\Controllers\\PasswordService.cs",
+              "ToolTip": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\Controllers\\PasswordService.cs",
+              "RelativeToolTip": "SafeLABS\\Controllers\\PasswordService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T06:40:39.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthClass.cs",
+              "DocumentMoniker": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\Controllers\\AuthClass.cs",
+              "RelativeDocumentMoniker": "SafeLABS\\Controllers\\AuthClass.cs",
+              "ToolTip": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\Controllers\\AuthClass.cs",
+              "RelativeToolTip": "SafeLABS\\Controllers\\AuthClass.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwCUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T06:40:23.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SafeLABS",
+              "DocumentMoniker": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\SafeLABS.csproj",
+              "RelativeDocumentMoniker": "SafeLABS\\SafeLABS.csproj",
+              "ToolTip": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\SafeLABS.csproj",
+              "RelativeToolTip": "SafeLABS\\SafeLABS.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-26T21:07:17.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AnnouncementDTO.cs",
+              "DocumentMoniker": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\Models\\AnnouncementDTO.cs",
+              "RelativeDocumentMoniker": "SafeLABS\\Models\\AnnouncementDTO.cs",
+              "ToolTip": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\Models\\AnnouncementDTO.cs",
+              "RelativeToolTip": "SafeLABS\\Models\\AnnouncementDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T07:16:38.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\appsettings.json",
+              "RelativeDocumentMoniker": "SafeLABS\\appsettings.json",
+              "ToolTip": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\appsettings.json",
+              "RelativeToolTip": "SafeLABS\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-14T15:53:56.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "SafeLABS\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\appsettings.Development.json",
+              "RelativeToolTip": "SafeLABS\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-14T15:53:54.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Kripta.cs",
+              "DocumentMoniker": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\Kripta.cs",
+              "RelativeDocumentMoniker": "SafeLABS\\Kripta.cs",
+              "ToolTip": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\Kripta.cs",
+              "RelativeToolTip": "SafeLABS\\Kripta.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAAAH0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T15:43:54.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AttendanceDetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\Controllers\\AttendanceDetailsController.cs",
+              "RelativeDocumentMoniker": "SafeLABS\\Controllers\\AttendanceDetailsController.cs",
+              "ToolTip": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\Controllers\\AttendanceDetailsController.cs",
+              "RelativeToolTip": "SafeLABS\\Controllers\\AttendanceDetailsController.cs",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAAAJkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T11:19:46.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SafeLABS_models.cs",
+              "DocumentMoniker": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\Models\\SafeLABS_models.cs",
+              "RelativeDocumentMoniker": "SafeLABS\\Models\\SafeLABS_models.cs",
+              "ToolTip": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\Models\\SafeLABS_models.cs",
+              "RelativeToolTip": "SafeLABS\\Models\\SafeLABS_models.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T07:11:18.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "SafeLABS\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "SafeLABS\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAQwEwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T12:28:48.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserDetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\Controllers\\UserDetailsController.cs",
+              "RelativeDocumentMoniker": "SafeLABS\\Controllers\\UserDetailsController.cs",
+              "ToolTip": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\Controllers\\UserDetailsController.cs",
+              "RelativeToolTip": "SafeLABS\\Controllers\\UserDetailsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T12:05:24.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AnnouncementDetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\Controllers\\AnnouncementDetailsController.cs",
+              "RelativeDocumentMoniker": "SafeLABS\\Controllers\\AnnouncementDetailsController.cs",
+              "ToolTip": "C:\\Users\\REDTECH\\source\\repos\\SafeLABS\\SafeLABS\\Controllers\\AnnouncementDetailsController.cs",
+              "RelativeToolTip": "SafeLABS\\Controllers\\AnnouncementDetailsController.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAYwFoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T08:22:35.581Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

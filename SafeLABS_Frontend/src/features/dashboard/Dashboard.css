@@ -1,0 +1,410 @@
+
+/* Dashboard Styles */
+.safelabs-dashboard-page {
+  background-color: #0A192F;
+  min-height: 100vh;
+  padding: 40px 20px;
+  color: #E0E0E0;
+  font-family: Arial, sans-serif;
+}
+
+.safelabs-dashboard-container {
+  background-color: #112240;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  max-width: 1400px;
+  margin: 0 auto;
+  overflow-x: auto;
+}
+
+.safelabs-dashboard-header {
+  color: #FFFFFF;
+  font-size: 2.4rem;
+  margin-bottom: 30px;
+  padding-left: 40px;
+  border-left: 5px solid #64FFDA;
+}
+
+.safelabs-dashboard-section {
+  margin-bottom: 40px;
+}
+
+.safelabs-dashboard-spacer {
+  height: 40px;
+}
+
+.safelabs-section-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.safelabs-section-header {
+  color: #64FFDA;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+/* Add button for new announcements */
+.safelabs-add-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #64FFDA;
+  color: #0A192F;
+  font-weight: bold;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.safelabs-add-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(100, 255, 218, 0.2);
+}
+
+/* Announcement controls container */
+.safelabs-announcement-controls {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Date filter dropdown */
+.safelabs-date-filter-select {
+  padding: 10px 15px;
+  border-radius: 8px;
+  background-color: #1C3A63;
+  border: 1px solid #233554;
+  color: #E0E0E0;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.safelabs-date-filter-select:focus {
+  outline: none;
+  border-color: #64FFDA;
+  box-shadow: 0 0 0 2px rgba(100, 255, 218, 0.2);
+}
+
+/* Table Styling */
+.safelabs-data-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  color: #E0E0E0;
+}
+
+.safelabs-data-table thead {
+  background-color: #1C3A63;
+}
+
+.safelabs-data-table th {
+  text-align: left;
+  padding: 15px 20px;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #64FFDA;
+  font-weight: 600;
+  border-bottom: 2px solid #2D4A73;
+}
+
+.safelabs-data-table th:first-child {
+  border-top-left-radius: 10px;
+}
+
+.safelabs-data-table th:last-child {
+  border-top-right-radius: 10px;
+}
+
+.safelabs-data-table tbody tr {
+  background-color: #172A46;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.safelabs-data-table tbody tr:hover {
+  background-color: #233554;
+  transform: scale(1.005);
+}
+
+.safelabs-data-table td {
+  padding: 15px 20px;
+  border-bottom: 1px solid #233554;
+  font-size: 0.95rem;
+}
+
+.safelabs-data-table tr:last-child td {
+  border-bottom: none;
+}
+
+.safelabs-data-table tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+
+.safelabs-data-table tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}
+
+/* Announcements Styles */
+.safelabs-announcements-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.safelabs-announcement-item {
+  background-color: #172A46;
+  border-radius: 10px;
+  padding: 20px;
+  transition: all 0.2s ease;
+  border-left: 4px solid #64FFDA;
+}
+
+.safelabs-announcement-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  background-color: #1C3A63;
+}
+
+.safelabs-announcement-description {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.safelabs-announcement-date {
+  font-size: 0.85rem;
+  color: #8892B0;
+}
+
+/* Loading and Error States */
+.safelabs-loading-state {
+  text-align: center;
+  padding: 40px;
+  color: #64FFDA;
+  font-size: 1.2rem;
+  animation: safelabs-pulse 1.5s infinite ease-in-out;
+}
+
+@keyframes safelabs-pulse {
+  0% { opacity: 0.6; }
+  50% { opacity: 1; }
+  100% { opacity: 0.6; }
+}
+
+.safelabs-error-message {
+  color: #FF6B6B;
+  padding: 15px;
+  background-color: rgba(255, 107, 107, 0.1);
+  border-radius: 8px;
+  margin: 15px 0;
+}
+
+.safelabs-empty-state {
+  text-align: center;
+  color: #8892B0;
+  padding: 30px;
+  background-color: #172A46;
+  border-radius: 10px;
+  font-style: italic;
+}
+
+/* Modal Styling */
+.safelabs-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(10, 25, 47, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  backdrop-filter: blur(4px);
+}
+
+.safelabs-modal-content {
+  background-color: #112240;
+  border-radius: 15px;
+  padding: 30px;
+  width: 90%;
+  max-width: 600px;
+  max-height: 85vh;
+  overflow-y: auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  animation: safelabs-modal-slide-in 0.3s ease forwards;
+}
+
+@keyframes safelabs-modal-slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.safelabs-modal-header {
+  color: #64FFDA;
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #233554;
+}
+
+/* Form Styling */
+.safelabs-form-field {
+  margin-bottom: 20px;
+}
+
+.safelabs-form-field label {
+  display: block;
+  margin-bottom: 8px;
+  color: #8892b0;
+  font-size: 0.9rem;
+}
+
+.safelabs-form-field textarea,
+.safelabs-form-field input {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 8px;
+  background-color: #1C3A63;
+  border: 1px solid #233554;
+  color: #E0E0E0;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+  resize: vertical;
+}
+
+.safelabs-form-field textarea:focus,
+.safelabs-form-field input:focus {
+  outline: none;
+  border-color: #64FFDA;
+  box-shadow: 0 0 0 2px rgba(100, 255, 218, 0.2);
+}
+
+.safelabs-checkbox-field {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.safelabs-checkbox-field input {
+  width: auto;
+}
+
+.safelabs-checkbox-field label {
+  margin-bottom: 0;
+  color: #E0E0E0;
+}
+
+.safelabs-form-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.safelabs-submit-button {
+  background-color: #64FFDA;
+  color: #0A192F;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.safelabs-submit-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(100, 255, 218, 0.2);
+  background-color: #72ffe1;
+}
+
+.safelabs-cancel-button {
+  background-color: transparent;
+  color: #8892B0;
+  font-weight: 600;
+  padding: 12px 24px;
+  border: 1px solid #233554;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.safelabs-cancel-button:hover {
+  background-color: rgba(136, 146, 176, 0.1);
+  color: #E0E0E0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .safelabs-dashboard-header {
+    font-size: 1.8rem;
+    padding-left: 20px;
+  }
+  
+  .safelabs-section-header-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  
+  .safelabs-announcement-controls {
+    width: 100%;
+    flex-direction: column;
+  }
+  
+  .safelabs-date-filter-select {
+    width: 100%;
+  }
+  
+  .safelabs-add-button {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .safelabs-data-table {
+    font-size: 0.9rem;
+  }
+  
+  .safelabs-form-buttons {
+    flex-direction: column;
+  }
+  
+  .safelabs-submit-button, .safelabs-cancel-button {
+    width: 100%;
+  }
+}
+
+/* Transition classes for sidebar collapse interaction */
+.transition-all {
+  transition-property: all;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+.ml-20 {
+  margin-left: 5rem;
+}
+
+.ml-64 {
+  margin-left: 16rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
