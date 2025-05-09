@@ -2,7 +2,7 @@
 
 ![SafeLABS Logo](./SafeLABS_Logo.jpeg)
 
-> A Smart Laboratory Management System that unifies facial recognition, PPE compliance, secure authentication, and efficient resource handling.
+> A comprehensive laboratory management solution for a chemical lab, integrating face recognition-based user authentication and object detection for safety compliance. The system enables real-time authentication control with automated attendance tracking, manages personnel and resource records, provides lab occupancy updates, and announcements via a responsive web application.
 
 ---
 
