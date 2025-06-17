@@ -188,7 +188,7 @@ Thithira Paranawithana
 Department of Computer Engineering
 Faculty of Engineering
 University of Sri Jayewardenepura 
-📧 thithiradilmith15@gmail.com
+📧 thithiraparanawithana@gmail.com
 
 ---
 
